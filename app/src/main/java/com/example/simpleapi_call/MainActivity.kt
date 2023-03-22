@@ -179,7 +179,7 @@ class MainActivity : AppCompatActivity() {
             Log.i("GSON data list size","${responseData.data_list.size}")
             // Iterate using the position int value of the list
             for(item in responseData.data_list.indices) {
-                Log.i("GSON value ${item}", "${responseData.data_list[item]}")
+                Log.i("GSON value $item", "${responseData.data_list[item]}")
 
                 Log.i("GSON ID","${responseData.data_list[item].id}")
                 Log.i("GSON value",responseData.data_list[item].value)
